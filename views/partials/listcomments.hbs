@@ -8,7 +8,7 @@
     </tr>
   </thead>
   <tbody>
-    {{#each comments.info}}
+    {{#each comment.info}}
       <tr>
         <td>
           {{fname}}
@@ -18,11 +18,6 @@
         </td>
         <td>
           {{comment}}
-        </td>
-        <td>
-          <a href="/comment/{{../comment.id}}/deleteinfo/{{id}}" class="ui icon button">
-            <i class="icon trash"></i>
-          </a>
         </td>
       </tr>
     {{/each}}
