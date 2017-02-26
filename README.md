@@ -1,4 +1,4 @@
-Welcome to the Gomix Template 1
+Welcome to the Bookmark Organiser V1.0
 ==============================
 
-A starter project for learning Gomix
+A starter project for organising your bookmarks.
