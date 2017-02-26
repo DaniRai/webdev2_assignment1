@@ -1,0 +1,18 @@
+<form class="ui stacked inverted segment form" action="/comment/{{comment.id}}/addinfo" method="POST">
+  <div class="two fields">
+    <div class="field" required>
+      <label>First Name</label>
+      <input placeholder="First Name" type="text" name="fname">
+    </div>
+    <div class="field">
+      <label>Surname</label>
+      <input placeholder="Surname" type="text" name="sname">
+    </div>
+  </div>
+    <br>
+  <div class="field">
+     <label>Comment</label>
+     <input placeholder="Comment" type="text" name="comment">
+  </div>
+  <button class="ui grey submit button">Add Comment</button>
+</form>

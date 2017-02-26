@@ -1,0 +1,30 @@
+<table class="ui inverted table">
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Surname</th>
+      <th>Comment</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each comments.info}}
+      <tr>
+        <td>
+          {{fname}}
+        </td>
+        <td>
+          {{sname}}
+        </td>
+        <td>
+          {{comment}}
+        </td>
+        <td>
+          <a href="/comment/{{../comment.id}}/deleteinfo/{{id}}" class="ui icon button">
+            <i class="icon trash"></i>
+          </a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

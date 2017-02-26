@@ -1,0 +1,79 @@
+{
+  "bookmarkCollection": [
+    {
+      "id": "01",
+      "catagory": "HTML",
+      "numberOfLinks": 3,
+      "links": [
+        {
+          "id": "06",
+          "address": "www.w3schools.com/html/",
+          "website": "W3Schools - HTML",
+          "summary": "A useful site for learning HTML"
+        },
+        {
+          "id": "11",
+          "address": "www.freecodecamp.com/",
+          "website": "Free Code Camp",
+          "summary": "A useful resource for learning the basics of HTML"
+        },
+        {
+          "id": "11",
+          "address": "www.sublimetext.com",
+          "website": "Sublime Text Editor",
+          "summary": "A useful program for writing HTML"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "catagory": "CSS",
+      "numberOfLinks": 3,
+      "links": [
+        {
+          "id": "07",
+          "address": "www.w3schools.com/css/",
+          "website": "W3Schools- CSS",
+          "summary": "A useful site for learning CSS"
+        },
+        {
+          "id": "08",
+          "address": "csszengarden.com/",
+          "website": "CSS Zen Garden",
+          "summary": "Example stylesheets for CSS"
+        },
+        {
+          "id": "09",
+          "address": "www.colorschemer.com/online.html",
+          "website": "ColourSchemer",
+          "summary": "A useful tool for find colour codes for various shades"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "catagory": "JavaScript",
+      "numberOfLinks": 3,
+      "links": [
+        {
+          "id": "10",
+          "address": "www.w3schools.com/js/",
+          "website": "W3Schools - JavaScript",
+          "summary": "A useful site for learning JS"
+        },
+        {
+          "id": "11",
+          "address": "www.Gomix.com",
+          "website": "Gomix",
+          "summary": "A great site for constructing and managing web based javascript projects"
+        },
+        {
+          "id": "11",
+          "address": "stackoverflow.com/documentation/javascript/topics",
+          "website": "Javascript Topics on StackOverflow",
+          "summary": "A Forum for discussing javascript"
+        }
+      ]
+    }
+  ]
+}
